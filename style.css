@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#banner {
+    background: url(./assets/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 105vh;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #CDDC39;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+#offcanvas-nav a:hover {
+    color: #7fb73a !important;
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 4px;
+    max-height: 110px;
+}
+
+footer nav a {
+    color: rgba(255, 255, 255, 0.758);
+}
+
+footer nav a:hover {
+    color: #7fb73a !important;
+}
